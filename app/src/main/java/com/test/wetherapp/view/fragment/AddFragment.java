@@ -67,7 +67,7 @@ public class AddFragment extends DialogFragment {
             if (!mRegionName.isEmpty()) {
                 mMainActivity.search(mRegionName);
             } else {
-                Toast.makeText(mMainActivity, "Region name is empty. Please enter it", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mMainActivity, "City name is empty. Please enter it", Toast.LENGTH_SHORT).show();
             }
             dismiss();
         });

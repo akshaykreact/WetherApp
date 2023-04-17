@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         fabAdd.setOnClickListener(view -> {
             AddFragment fragment = AddFragment.newInstance();
             fragment.setCancelable(false);
-            fragment.show(getSupportFragmentManager(), "kukku");
+            fragment.show(getSupportFragmentManager(), "test");
         });
 
         fetch();
